@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+*{
+    
+    margin: 0;
+}
+.font{
+    font-family: "Tagesschrift", system-ui;
+}
+
