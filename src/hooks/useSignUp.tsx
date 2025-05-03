@@ -84,7 +84,7 @@ export default function useSignUp() {
   })
   let handleSubmit = async(values: {}) => {
     setSignuploading(true)
-    await axios.post(`${baseUrl}users/signup`,values).then((res)=>{  
+    await axios.post(`${baseUrl}users/signup`,values).then(()=>{  
         setSignuploading(false);      
         toast.success('You Registred successfully ');
         navigate('/login')
