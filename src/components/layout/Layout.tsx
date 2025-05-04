@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import AddNote from "../AddNote";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { MidScreen } from "../../context/mdScreen";
 
 export default function Layout() {
