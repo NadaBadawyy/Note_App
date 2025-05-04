@@ -51,14 +51,14 @@ export default function Home() {
                   </div>
 
                   <div className="mt-4 md:mt-0">
-                    <button className=" bg-navtext  text-white p-3 rounded-xl mx-3" onClick={()=>{
+                    <button className=" bg-navtext  text-white p-3 rounded-xl mx-3 text-sm md:text-base" onClick={()=>{
                       setnoteItem(item)              
                       handleshowModal()
                     }}>
                       <i className="fa-solid fa-pen-to-square"></i> Update
                     </button>
                     <button
-                      className=" bg-red-500  text-white p-3 rounded-xl"
+                      className=" bg-red-500  text-white p-3 rounded-xl text-sm md:text-base"
                       onClick={() =>{deleteNote(item._id); setdelId(item._id)} }
                     >
                       {delLoading&&delId==item._id?<Loading/>:<><i className="fa-solid fa-trash-can"></i> Delete</>}
