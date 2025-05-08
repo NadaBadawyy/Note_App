@@ -18,7 +18,7 @@ export default function AddNote() {
       {showModal && (
         <>
           <div className="fixed top-0 bottom-0 left-0 right-0 bg-[#8080808a] flex justify-center items-center font ">
-            <div className="bg-white shadow-xl p-5 w-full md:p-28  rounded-xl m-10 md:m-72 relative">
+            <div className="bg-white shadow-xl p-5 w-full md:p-28  rounded-xl m-10 md:m-40 lg:m-72 relative">
               <div className="">
                 <form onSubmit={formik.handleSubmit} className="max-w-sm mx-auto">
                   <FormInput formik={formik} input={field}/>
